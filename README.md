@@ -1,41 +1,33 @@
-# Chrome-Extension-Base-Template
-This is a basic Chrome Extension base template for starting new projects off of initialized with a MIT license.
+# 📘 AZ Problem Tracker
 
-## Features
-- ..
-- ..
-- ..
+A lightweight Chrome Extension to bookmark and track coding problems on **Maang.in**, allowing users to quickly revisit and manage solved or important problems from a unified popup interface.
 
-## Author
-First Last
-- [Author Website]()
-- [Author Github]()
-- [Project Repository]()
+---
 
-## Requirements
-### Knowledge
-- HTML
-- CSS
-- Javascript
-- Chrome API
-### Tools
-- Google Chrome Browser
-- IDE or Text Editor of Your Choice
+## 🚀 Features
 
-## Setup Instructions
-### For Developers
-1. Make a clone of this project, unzipped.
-2. Open Chrome Browser
-3. In a new or blank tab, type in "chrome://extensions/" (without the quotes of course) and click [Enter].
-4. At the top right corner of the page, **enable** "Developer Mode"
-5. Click the button on the page that says "Load Unpacked"
-6. Navigate to your unzipped project folder and select that and hit OK.
-7. You are now ready to start working on the extension! Just make sure you reload after each change you make to see the changes take place.
+- 🔖 **One-click bookmarking** for any coding problem on Maang.in  
+- 🗂️ **Persistent storage** using `chrome.storage.sync` across sessions  
+- 🧭 **Bookmark popup UI** to view, play (open), or delete saved problems  
+- 📌 **Unique ID generation** to prevent duplicate bookmarks  
+- 🧠 Built with support for **SPA routing** using `MutationObserver`  
 
-### For End Users
-1. ...
-2. ...
-3. ...
+---
 
-## License
-Please refer to LICENSE file.
+## 📦 Installation
+
+1. Clone or download the extension folder
+2. Visit `chrome://extensions` in your Chrome browser
+3. Enable **Developer Mode**
+4. Click **"Load unpacked"** and select the extension directory
+
+---
+
+## 🔧 Tech Stack
+
+- HTML, CSS, JavaScript
+- Chrome Extension APIs (`storage`, `tabs`)
+- Manifest v3
+- DOM APIs & MutationObserver
+
+---
